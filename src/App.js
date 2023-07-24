@@ -30,12 +30,12 @@ const App = () => {
 
     
     useEffect(() => {
-        searchMovies('Butt');
+        searchMovies('Cool');
     },[])
 
     return(
         <div className="app">
-            <h1>Butts</h1>
+            <h1>Cool Movies</h1>
 
             <div className="search">
                 <input
