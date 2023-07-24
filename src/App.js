@@ -60,9 +60,12 @@ const App = () => {
 
                 ) : (
 
+                    <>
                     <div className="empty">
-                        <h2>No Movies found</h2>
+                        <h2>No Movies found!!</h2>
                     </div>
+                    <div></div>
+                    </>
 
                 )
             }
